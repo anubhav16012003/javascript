@@ -1,0 +1,11 @@
+let accountPassword = "JodxBilla7417";
+let accountName = "anubhavVerma";
+let contactNumber = 7417426133;
+
+//now I re-assigning the values
+accountPassword = 12345;
+accountName = "Anubhav";
+contactNumber = 8218726133;
+
+//here instead od using console.log() one by one we can use 
+console.table([accountPassword, accountName, contactNumber]);
