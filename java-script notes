@@ -1,3 +1,92 @@
+JAVA-SCRIPT NOTES:-
+
+* Java-script was invented by Brendon Eich in 1995 and became the ECMA standard in 1997.
+* ECMA-262 is the official name of the standard and ECMAScript is the official name of the script.
+
+Q. Where should we put Js in an HTML document?
+Ans. Js can be placed inside the <head> or <body> section of the HTML page or in both.
+2. Placing the <script> tag at the botton of the body element will improve the display speed because script interpretation slows down the display.
+
+* External Js:- 1. External scripts are practical when same code is used in many different web pages.
+2. Js file have the file extension .js
+3. To use the External script put the name of the script file inside the src(source) attribute of <script> tag.
+example- <script src="myfile.js"> </script>
+
+NOTE:- 1. The script will behave as it is located exactly where the <script> tag is located.
+2. You can place external script reference in the <head> or in <body> as you like.
+3. External script can not have <script> tags.
+
+Q. What are the advantages of external Js?
+Ans. 1. It separates the HTML and code.
+2. It makes the HTML and Js easier to read and maintain.
+3. Cached Js file can speed up page loads.
+
+* document.write():- It is convenient for testing purpose only.
+2. Using document.write() after an HTML document is loaded, will delete all the existing HTML.
+3. It can also lead to unexpexted behaviour and make code harder to maintain.
+
+* window.alert():- In Js, the window is an global scope object. It means values, properties and method by deafult belongs to window object.
+Hence, it is optional to use window keyword.
+
+Q. When code can run without semicolon then why it is highly recommened?
+Ans. It makes statement clearer and prevents side-effect statements that could occur without semi-colon.
+Hence it is not required but highly recommened.
+
+* Java-script values:- There are two types of values-
+1. Fixed Values (Literals)
+2. Variable Values (Variables)
+
+1. Js Literals:- a. Numbers  b. Strings
+2. Js Variables:- Variables are used to store data values. Js use keywords var, const & let to declare variables.
+
+* Naming in Js:- a. A letter (A-Z) or (a-z) b. A Dollar sign ($) c. An underscore (_)
+
+* NOTE:- 1. Numbers are not allowed as first character in names. By this way Js can easily distinguish indentifiers from numbers.
+3. Hyphens are not allowed in Js, As they are reserved for subtraciton.
+
+* Types of comments:- 
+1. Single line comment (Block Comment):- Starts with '//', Block comments are often used for formal document.
+2. Multi-line comment:- Starts with '/*' and ends with '*/'.
+
+* var:- 
+1. Var keyword was used in Js from 1995 to 2015.
+2. It should only be used in code made for old browsers only.
+
+* NOTE:- 'const' and 'let' keyword were added to Js in 2015.
+
+Q. When to use var, const & let?
+Ans. 1. Always use const if value should not be changed.
+2. Always use const if type should not be changed (object & arrays).
+3. Only use let if you can not use const.
+4. Only use var if you must suppoert old browser.
+
+* Js Identifiers:- All js identifiers must be identified with unique names. 
+These unique names are called identifiers. These are case-sensitive.
+
+* NOTE:- You can not re-declare a variable with let and const.
+
+* let:- 
+1. The let keyword was introduced in ES6 (2015).
+2. Variables defined with let can not be re-declared.
+3. Variables defined with let can not be used before declared.
+4. Variables defined with let have block scope.
+
+* Block-scope:-
+1. Before ES6(2015), Js had Global scope and Functional scope.
+2. ES6 inrtoduced two important keywords 'let' and 'var'.
+3. These two keywords provide block scope in Js.
+4. Variables declared inside block scope can not be accessed from outside the block.
+example- {
+            let x=2;
+          }
+            // x can not be accessed here
+5. Variable declared with 'var' keyword can not have block scope.
+6. Variables declared inside the block scope can be accessed from outside the block.
+example- {
+            var x=2;
+          }
+            // x can be accessed here 
+
 let accountPassword = "JodxBilla7417";
 let accountName = "anubhavVerma";
 let contactNumber = 7417426133;
