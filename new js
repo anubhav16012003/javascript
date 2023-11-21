@@ -4,3 +4,17 @@ alert(3+3) //it will give error in node js, not in browser
 
 console.log(typeof null) // output: object
 console.log(typeof undefined) // ouput: undefined
+
+* Conversion of Datatype to another:- 
+
+  let anubhavScore = 33; // here we take anubhavScore as number 
+  let stringNumber = String(anubhavScore); // and here we convert number to string
+  console.log(anubhavScore); // here the output will be 33 but it is converted in String we can check it's type.
+  console.log(typeof(anubhavScore)); // output will be string
+  
+* Converting following to Number:-
+  A. "33" => 33
+  B. "33abc" => NaN
+  C. true => 1 & false => 0
+
+* iske baad prefix and postfix pdhna MDN se
