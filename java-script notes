@@ -13,6 +13,10 @@ JAVA-SCRIPT NOTES:-
      D. Undefined:- Represent a variable that has been declared but not assigned a value.
      E. Symbol (added in ECMAScript6):- Represent special characters
      F. BigInt (added in ECMAScript11 2020): Represents a very large Integer number 
+
+ *Symbol:-
+     A. NaN (not a number):- Represnts a value that is not a number 
+     B. Infinity and -Infinity number:- Represents a positive and negative infinity respectively.
 2. Non-primitive or Refernce Data-typr:- 
   A. Object Data-type:-
      Object:- Represent a collection of key-value pairs. Objects can be created using curly braces ('{}').
@@ -21,9 +25,6 @@ JAVA-SCRIPT NOTES:-
   C. Function Data-type:-
      Function:- Represent a reusable block of code. Functions in java-script are first-class citizens, meaning they can be assigned to
      vairables, and then passed as arguments to other function and then returned as value from other function.
-  D. Symbol:-
-     A. NaN (not a number):- Represnts a value that is not a number 
-     B. Infinity and -Infinity number:- Represents a positive and negative infinity respectively.
 
 Q. Where should we put Js in an HTML document?
 Ans. Js can be placed inside the <head> or <body> section of the HTML page or in both.
