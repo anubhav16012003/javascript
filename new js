@@ -20,3 +20,5 @@ console.log(typeof undefined) // ouput: undefined
 * iske baad prefix and postfix pdhna MDN se
 
 * === strict check (ye na sirf value ko check krta balki uske data-type ko bhi check krta hai)
+
+* If we will check the typeof null then the result will be object always
