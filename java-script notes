@@ -2,6 +2,8 @@ JAVA-SCRIPT NOTES:-
 
 * Java-script was invented by Brendon Eich in 1995 and became the ECMA standard in 1997.
 * ECMA-262 is the official name of the standard and ECMAScript is the official name of the script.
+* Java-script is a dynamically typed language. It means that while decalring a variable it is not necesaary to define it's type.
+  The type of variable is determned at runtime.
 
 * Data-types in Java-script:-            
   1. Primitive Data-type:-
