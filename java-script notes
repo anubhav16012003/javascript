@@ -10,6 +10,7 @@ JAVA-SCRIPT NOTES:-
      C. Null:- Represent the intentional absence of any object value
      D. Undefined:- Represent a variable that has been declared but not assigned a value.
      E. Symbol (added in ECMAScript6):- Represent special characters
+     F. BigInt (added in ECMAScript11 2020): Represents a very large Integer number 
 2. Non-primitive or Refernce Data-typr:- 
   A. Object Data-type:-
      Object:- Represent a collection of key-value pairs. Objects can be created using curly braces ('{}').
