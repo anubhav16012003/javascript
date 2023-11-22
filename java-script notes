@@ -13,7 +13,7 @@ JAVA-SCRIPT NOTES:-
   2. Object Data-type:-
      Object:- Represent a collection of key-value pairs. Objects can be created using curly braces ('{}').
   3. Composite Data-type:-
-     Array:- Represent a ordered list of values. It can contain values of different types.
+     Array:- Represent a ordered list of values. It can contain values of different types. 
   4. Function Data-type:-
      Function:- Represent a reusable block of code. Functions in java-script are first-class citizens, meaning they can be assigned to
      vairables, and then passed as arguments to other function and then returned as value from other function.
