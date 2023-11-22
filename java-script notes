@@ -10,14 +10,15 @@ JAVA-SCRIPT NOTES:-
      C. Null:- Represent the intentional absence of any object value
      D. Undefined:- Represent a variable that has been declared but not assigned a value.
      E. Symbol (added in ECMAScript6):- Represent special characters
-  2. Object Data-type:-
+2. Non-primitive or Refernce Data-typr:- 
+  A. Object Data-type:-
      Object:- Represent a collection of key-value pairs. Objects can be created using curly braces ('{}').
-  3. Composite Data-type:-
+  B. Composite Data-type:-
      Array:- Represent a ordered list of values. It can contain values of different types. 
-  4. Function Data-type:-
+  C. Function Data-type:-
      Function:- Represent a reusable block of code. Functions in java-script are first-class citizens, meaning they can be assigned to
      vairables, and then passed as arguments to other function and then returned as value from other function.
-  5. Symbol:-
+  D. Symbol:-
      A. NaN (not a number):- Represnts a value that is not a number 
      B. Infinity and -Infinity number:- Represents a positive and negative infinity respectively.
 
