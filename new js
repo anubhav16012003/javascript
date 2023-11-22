@@ -22,3 +22,14 @@ console.log(typeof undefined) // ouput: undefined
 * === strict check (ye na sirf value ko check krta balki uske data-type ko bhi check krta hai)
 
 * If we will check the typeof null then the result will be object always
+
+* Primitive (Stack) & Non-Primitive (Heap) 
+
+* String interpolation:- Instead of concatination of strings using + signs. Use backticks 
+for example = 
+let name = "anubhav";
+let surname = " verma";
+let age = 20;
+console.log("My" + " name is " + name + surname + " and I am " + age + " years old.");
+// instead we can do it like this
+console.log(`Hello my name is ${name}${surname} and I am ${age} years old`);
