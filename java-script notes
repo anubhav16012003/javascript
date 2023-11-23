@@ -119,5 +119,5 @@ accountPassword = 12345;
 accountName = "Anubhav";
 contactNumber = 8218726133;
 
-//here instead od using console.log() one by one we can use 
+//here instead of using console.log() one by one we can use 
 console.table([accountPassword, accountName, contactNumber]);
