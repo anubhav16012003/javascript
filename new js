@@ -32,4 +32,22 @@ let surname = " verma";
 let age = 20;
 console.log("My" + " name is " + name + surname + " and I am " + age + " years old.");
 // instead we can do it like this
-console.log(`Hello my name is ${name}${surname} and I am ${age} years old`);
+console.log(`Hello my name is ${name.toUpperCase()}${surname.toLowerCase()} and I am ${age} years old`);
+
+* NOTE:- We can declare strings by 2 methods. 
+example = 1. let check = "Anubhav";
+            console.log(check);
+          2. let myNamw = new String ("Anubhav");
+            console.log(myName); 
+
+* NOTE:- 1. TRIM:- let name = "            Anubhav Verma                         ";
+console.log(name.trim()); //In this method it will remove all the white spaces automatically and the output will be `Anubhav Verma`
+And it will remove the white spaces from the start and end only not from the middle
+
+2. REPLACE:- let name = "Anubhdg Verma"
+console.log(name.replace('dg', 'av')); //By this way, The output will be `Anubhav Verma`
+
+3. INCLUDES:- You can check with the help of this that something exist in your string or not.
+let name = "Anubhav Verma" 
+console.log(name.includes("verma")) // it will return false
+console.log(name.includes("Verma")) // it will return true
