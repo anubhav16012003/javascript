@@ -26,6 +26,22 @@ JAVA-SCRIPT NOTES:-
      Function:- Represent a reusable block of code. Functions in java-script are first-class citizens, meaning they can be assigned to
      vairables, and then passed as arguments to other function and then returned as value from other function.
 
+* Coercion:- It reffers to the process of automatically converting values from one data-type to another data-type. As Java-script is the 
+dynamically typed language so it can hold the value of any data-type and the type of variable can change during execution of program.
+2 types of coercion:- Explicit and Implicit (type casting)
+example:- 1. explicit coercioning: let x = "10";
+let y = 20;
+let z = Number(x) + y; // Explicit coercing of x to a number 
+console.log(z); // output 30
+2. Implicit coercing: let a = 5;
+let b = "5";
+console.log(a == b); // Outputs true, because b is implicitly coerced to a number for the comparison
+
+* Padding:- It is of two types
+1. padStart(target length(jitni bdi bhi bnani ho), "jo bhi add krna ho vo yha"(optional)) 
+2. padEnd() //same parameters jo padStart ke liye thae
+
+
 Q. Where should we put Js in an HTML document?
 Ans. Js can be placed inside the <head> or <body> section of the HTML page or in both.
 2. Placing the <script> tag at the botton of the body element will improve the display speed because script interpretation slows down the display.
