@@ -51,3 +51,14 @@ console.log(name.replace('dg', 'av')); //By this way, The output will be `Anubha
 let name = "Anubhav Verma" 
 console.log(name.includes("verma")) // it will return false
 console.log(name.includes("Verma")) // it will return true
+
+* toFixed (only used for numbers):- const number = 7417.426133;
+console.log(number.toFixed(2)); // output = 7417.43; 
+
+* const number = 7417.426133;
+console.log(number.toString().length); // ess case me phele number ko string me bdla aur fir uski length pta kri
+
+* const hundreds = 1000000000;
+console.log(hundreds.toLocaleString()); // output = 1,000,000,000 international system ke hisab se commas lge 
+console.log(hundreds.toLoacleString('en-IN'); // output = 1,00,00,00,000 Indian system ke hisab se commas lgenge 
+
