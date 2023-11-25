@@ -62,3 +62,28 @@ console.log(number.toString().length); // ess case me phele number ko string me 
 console.log(hundreds.toLocaleString()); // output = 1,000,000,000 international system ke hisab se commas lge 
 console.log(hundreds.toLoacleString('en-IN'); // output = 1,00,00,00,000 Indian system ke hisab se commas lgenge 
 
+* Note:-
+
+1. NEGATIVE TO POSITIVE:- To change the negative sign of values into positive we will use abs 
+for example:- let number = -4;
+console.log(Math.abs(number)); // output:- 4
+
+2. ROUND OFF:- It will remove the decimal
+for example:- let number = 34.34;
+console.log(Math.round(number));  // output:- 34
+
+3. ROUND TO HIGHER NUMBER OR LOWER NUMBER:- We can round of to higher digit number or lower digit number 
+fro example:- ;et number = 34.1 // I can make it 35 or 34 as my wish
+console.log(Math.ceil(number)); // to make it 35 we will use ceil
+console.log(Math.floor(number)); // to make it 34 we will use floor
+
+4. To find the minimum & maximum number in an array:- we can find MAXIMUM and MINIMUM value in array.
+for example:- let number = [1, 2, 3, 4, 6];
+console.log(Math.min(...number)); // esse hum minimum value nikal skte
+console.log(Math.max(...number)); // esse hum maximum value nikal skte
+
+* TERNARY OPERATOR:- condition ? expressionIfTrue : expressionIfFalse;
+"?"= indicates true & ":"= indicates false 
+fro example:- let ifRaining = false;
+let weather = ifRaining ? "Hn bhai baarish hori hai!" : "chutiya bna diya bhai tera";
+console.log(weathera); // output:- chutiya bna diya bhai tera nhi hoti baarish
