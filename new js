@@ -87,3 +87,10 @@ console.log(Math.max(...number)); // esse hum maximum value nikal skte
 fro example:- let ifRaining = false;
 let weather = ifRaining ? "Hn bhai baarish hori hai!" : "chutiya bna diya bhai tera";
 console.log(weathera); // output:- chutiya bna diya bhai tera nhi hoti baarish
+
+* NOTE:- console.log(MATH.random()); // esme jo number aaega hmesha vo 0 & 1 ke beech me aaega
+
+* DATE:- Date is a object in a java-script
+
+
+
