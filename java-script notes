@@ -26,6 +26,27 @@ JAVA-SCRIPT NOTES:-
      Function:- Represent a reusable block of code. Functions in java-script are first-class citizens, meaning they can be assigned to
      vairables, and then passed as arguments to other function and then returned as value from other function.
 
+* Array-Methods:- const numbers = [1, 2, 3];
+
+1. To add elements in the given array we use push method
+for example:- numbers.push(4); // output:- [1, 2, 3, 4]
+
+2. To remove tha last element from the given array we use pop method
+for example:- numbers.pop() // output:- [1, 2]
+
+3. unshift & shift:- unshift will add the number in the array at starting 
+shift will remove the first number from the starting
+for example:- const number = [1, 2, 3, 4]; 
+number.unshift(0); // output:- [0, 1, 2, 3, 4]
+const number = [1, 2, 3, 4]
+number.shift(); // output:- [2, 3, 4];
+
+4. join:- It is used to create an string by concatinating the array
+for example:- let name = ["Ramu", "kaka"];
+console.log(name); // output:- ['Ramu', 'kaka']
+let newName = name.join("-");
+console.log(newName) // output:- Ramu-kaka
+
 * Coercion:- It reffers to the process of automatically converting values from one data-type to another data-type. As Java-script is the 
 dynamically typed language so it can hold the value of any data-type and the type of variable can change during execution of program.
 2 types of coercion:- Explicit and Implicit (type casting)
