@@ -92,5 +92,9 @@ console.log(weathera); // output:- chutiya bna diya bhai tera nhi hoti baarish
 
 * DATE:- Date is a object in a java-script
 
+Q. What is the difference between slice and splice?
+Ans. Use slice when you want to create a new array with a portion of the elements from an existing array.
+Use splice when you want to modify the original array by adding, removing, or replacing elements.
+
 
 
